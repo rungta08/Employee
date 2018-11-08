@@ -39,3 +39,10 @@
 2018-11-09 02:17:58.876  INFO 6840 --- [http-nio-8200-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2018-11-09 02:17:58.900  INFO 6840 --- [http-nio-8200-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
 2018-11-09 02:17:59.322  INFO 6840 --- [http-nio-8200-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-11-09 02:25:03.383  INFO 6840 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-11-09 02:25:03.387  INFO 6840 --- [RMI TCP Connection(17)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-09 02:25:03.389  INFO 6840 --- [RMI TCP Connection(17)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-09 02:25:03.393  INFO 6840 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-11-09 02:25:03.411  INFO 6840 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-11-09 02:25:03.666  INFO 6840 --- [RMI TCP Connection(17)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-09 02:25:03.674  INFO 6840 --- [RMI TCP Connection(17)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

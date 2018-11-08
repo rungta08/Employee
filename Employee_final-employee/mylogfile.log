@@ -187,3 +187,10 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
 	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
 
+2018-11-09 02:25:09.770  INFO 11472 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-11-09 02:25:09.786  INFO 11472 --- [RMI TCP Connection(24)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-09 02:25:09.789  INFO 11472 --- [RMI TCP Connection(24)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-09 02:25:09.803  INFO 11472 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-11-09 02:25:09.903  INFO 11472 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-11-09 02:25:10.119  INFO 11472 --- [RMI TCP Connection(24)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-09 02:25:10.134  INFO 11472 --- [RMI TCP Connection(24)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
