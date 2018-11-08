@@ -264,3 +264,10 @@ java.net.ConnectException: Connection refused: connect
 2018-11-09 03:05:20.782  WARN 20580 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2018-11-09 03:05:21.681  INFO 20580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
 2018-11-09 03:05:21.686  INFO 20580 --- [main] c.i.E.EmployeeFinalApplication           : Started EmployeeFinalApplication in 13.336 seconds (JVM running for 14.73)
+2018-11-09 03:10:30.865  WARN 20580 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s597ms477µs597ns).
+2018-11-09 03:37:27.955  INFO 20580 --- [RMI TCP Connection(41)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-11-09 03:37:30.841  INFO 20580 --- [RMI TCP Connection(41)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-09 03:37:31.132  INFO 20580 --- [RMI TCP Connection(41)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-09 03:37:32.360  INFO 20580 --- [RMI TCP Connection(41)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-11-09 03:37:32.848  INFO 20580 --- [RMI TCP Connection(41)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-11-09 03:37:33.659  INFO 20580 --- [RMI TCP Connection(41)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
